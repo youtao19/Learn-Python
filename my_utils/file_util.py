@@ -25,5 +25,5 @@ def append_to_file(file_name,data):
     f.close()
 
 if __name__ == '__main__':
-    append_to_file("D:\\codes\\Python\\pythonProject\\文件写入写出综合案例\\bill.txt","追加成功")
-    print_file_info("D:\\codes\\Python\\pythonProject\\文件写入写出综合案例\\bill.txt")
+    append_to_file("文件写入写出综合案例\\bill.txt","追加成功4")
+    print_file_info("文件写入写出综合案例\\bill.txt")
