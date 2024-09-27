@@ -1,9 +1,13 @@
+# import os,sys
+# print(os.getcwd())
+# sys.path.append("../..")
+
+
 import my_utils.str_util
 from my_utils import file_util
 
 print(my_utils.str_util.str_reverse("I Love You"))
 print(my_utils.str_util.substr("Nice to meet YOU",2,6))
-
 
 
 file_util.append_to_file('test_append.txt',"现在正在测试")
